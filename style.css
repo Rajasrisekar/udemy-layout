@@ -46,13 +46,12 @@ body {
 
 .navbar__s3 {
     display: flex;
-    gap: 20px;
+    gap: 10px;
 
 }
 
 .categories {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
     padding: 10px;
     border-bottom: solid black 1px;
@@ -61,8 +60,8 @@ body {
 .categories p {
     padding: 10px;
     background-color: #a435f0;
-    color: aliceblue;
-    border-radius: 45px;
+    color: white;
+    border-radius: 35px;
 }
 
 .sale-image img {
@@ -84,6 +83,7 @@ body {
 
 .recommended__container {
     display: flex;
+    flex-wrap:wrap;
     gap: 60px;
     margin-top: 20px;
 }
@@ -128,7 +128,7 @@ body {
 
 .footer__one {
     display: flex;
-    gap:50px;
+    gap:10px;
 
 }
 .footer__one p{
